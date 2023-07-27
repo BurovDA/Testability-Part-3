@@ -4,7 +4,6 @@ public class CreditPaymentService {
         double x1 = rate * Math.pow(1 + rate, quantityMonths);
         double x2 = Math.pow(1 + rate, quantityMonths) - 1;
         double P = loanAmount * (x1 / x2);
-        int intP = (int) P;
-        return intP;
+        return (int) P;
     }
 }
