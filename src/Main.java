@@ -6,6 +6,6 @@ public class Main {
         int quantityMonths = 36; // Количество месяцев кредитования
         int years = 3;
         int mpAmount = service.monthlyPayment(loanAmount, interestRate, quantityMonths, years);
-        System.out.println("Сумма эжемесячного платежа по кредиту составляет " + mpAmount);
+        System.out.println("Сумма ежемесячного платежа по кредиту составляет " + mpAmount);
     }
 }
